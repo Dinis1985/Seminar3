@@ -18,6 +18,6 @@ if (num < 10000 || num > 99999) Console.WriteLine("!!!Не корректное 
 else
 {
     if (a1 == a5 && a2 == a4) Console.WriteLine($"Число {num} -> является палиндромом ");
-    else if (a1 != a5 && a2 != a4) Console.WriteLine($"Число {num} -> не является палиндромом ");
+    else Console.WriteLine($"Число {num} -> не является палиндромом ");
 }
 
